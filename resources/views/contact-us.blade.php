@@ -7,6 +7,6 @@
     <title>CONTACT-US</title>
 </head>
 <body>
-    <h3>Contact us in</h3>
+    <h1>Contact us</h1>
 </body>
 </html>

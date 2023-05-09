@@ -34,13 +34,13 @@ Route::prefix('produc')->group(function (){
 });
 Route::get('/news', function(){
     return view('news');
-}) ->name('news');
+});
 Route::get('/program', function(){
     return view('program');
-}) ->name('program');
+});
 Route::get('/about', function(){
     return view('about-us');
-}) ->name('about');
+});
 Route::get('/contact', function(){
     return view('contact-us');
-}) ->name('contact');
+});

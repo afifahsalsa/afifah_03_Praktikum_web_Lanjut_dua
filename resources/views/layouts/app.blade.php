@@ -6,7 +6,7 @@
 
 <body>
     @section('sidebar')
-        Ini adalah master sidebar.
+        Ini adalah master sidebarr.
     @show
     <div class="container">
         @yield('content')

@@ -7,6 +7,6 @@
     <title>PRODUCT</title>
 </head>
 <body>
-    <h2>Daftar Product</h2>
+    <h2>Daftar Product yang tersedia</h2>
 </body>
 </html>

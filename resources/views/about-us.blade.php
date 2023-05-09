@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>About Us</h1>
-    <p>This is website.</p>
+    <p>This website page about-us.</p>
 </body>
 </html>

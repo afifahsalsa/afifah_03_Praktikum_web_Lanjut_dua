@@ -7,6 +7,6 @@
     <title>NEWS</title>
 </head>
 <body>
-    <h3>Tampilan daftar berita</h3>
+    <h3>Berita hari ini</h3>
 </body>
 </html>
