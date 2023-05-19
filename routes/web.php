@@ -26,21 +26,19 @@ Route::get('/child', function(){
 //praktikum 1
 Route::get('/home', function(){
     return view('home');
-});
-Route::prefix('produc')->group(function (){
-    Route::get('/product', function(){
-        return view('product');
-    })->name('produc.product');
-});
-Route::get('/news', function(){
-    return view('news');
-});
-Route::get('/program', function(){
-    return view('program');
-});
+})-> name('home');
+Route::get('/products', function(){
+    return view('products');
+})-> name('products');
+Route::get('/gallery', function(){
+    return view('gallery');
+})-> name('gallery');
+Route::get('/services', function(){
+    return view('services');
+})-> name('services');
 Route::get('/about', function(){
-    return view('about-us');
-});
+    return view('about');
+})-> name('about');
 Route::get('/contact', function(){
-    return view('contact-us');
-});
+    return view('contact');
+})-> name('contact');
