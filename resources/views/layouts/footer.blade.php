@@ -3,11 +3,11 @@
       <nav class="col-lg-3 col-md-3 tm-footer-nav tm-footer-div">
         <h3 class="tm-footer-div-title">Main Menu</h3>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="gallery.html">Directory</a></li>
+          <li><a href="{{ route('home') }}" class="{{(Route::currentRouteName() == 'home')?'active':''}}">Home</a></li>
+          <li><a href="{{ route('about') }}" class="{{(Route::currentRouteName() == 'about')?'active':''}}">About Us</a></li>
+          <li><a href="{{ route('gallery') }}" class="{{(Route::currentRouteName() == 'gallery')?'active':''}}">Directory</a></li>
           <li><a href="#">Blog</a></li>
-          <li><a href="services.html">Our Services</a></li>
+          <li><a href="{{ route('services') }}" class="{{(Route::currentRouteName() == 'services')?'active':''}}">Our Services</a></li>
         </ul>
       </nav>
       <div class="col-lg-5 col-md-5 tm-footer-div">
