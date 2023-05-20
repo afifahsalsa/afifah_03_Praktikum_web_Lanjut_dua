@@ -2,17 +2,6 @@
 @section('title', 'contact')
 @section('header-content')
 
-<div class="templatemo-header">
-    <img class="{{asset('assets/templatemo-header-img')}}" src="img/header.png" alt="Header">
-    <h1 class="templatemo-site-name">Motor</h1>
-    <div class="mobile-menu-icon">
-      <i class="fa fa-bars"></i>
-    </div>
-    <div class="templatemo-nav-container">
-      <nav class="templatemo-nav">
-     </nav> 
-   </div>
- </div>
  <div class="templatemo-welcome welcome-slider">
   <div class="container">
     <div class="row">

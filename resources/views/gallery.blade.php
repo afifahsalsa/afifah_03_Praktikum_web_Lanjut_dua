@@ -2,19 +2,6 @@
 @section('title', 'gallery')
 @section('header-content')
 
-<body class="gallery-page">
-    <section class="templatemo-top-section">
-      <div class="templatemo-header">
-        <img class="{{asset('assets/templatemo-header-img')}}" src="img/header.png" alt="Header">
-        <h1 class="templatemo-site-name">Motor</h1>
-        <div class="mobile-menu-icon">
-          <i class="fa fa-bars"></i>
-        </div>
-        <div class="templatemo-nav-container">
-          <nav class="templatemo-nav">
-         </nav> 
-       </div>
-     </div>
      <div class="templatemo-welcome">
       <div class="container">
         <div class="row">
@@ -34,7 +21,6 @@
         </div>    
       </div>
     </div>
-  </section>
   <section class="container margin-bottom-50">
    <div class="row">
     <h2 class="col-lg-12 text-center text-uppercase margin-bottom-30">Donec pede justo fringilla ulputate eget</h2>

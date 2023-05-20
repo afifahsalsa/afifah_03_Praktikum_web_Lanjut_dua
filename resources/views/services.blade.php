@@ -2,25 +2,6 @@
 @section('title', 'services')
 @section('header-content')
 
-<section class="templatemo-top-section">
-    <div class="templatemo-header">
-      <img class="{{asset ('assets/templatemo-header-img')}}" src="img/header.png" alt="Header">
-      <h1 class="templatemo-site-name">Motor</h1>
-      <div class="mobile-menu-icon">
-        <i class="fa fa-bars"></i>
-      </div>
-      <div class="templatemo-nav-container">
-        <nav class="templatemo-nav">
-          <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="products.html">Products</a></li>
-           <li><a href="services.html" class="active">Services</a></li>
-           <li><a href="gallery.html">Gallery</a></li>
-           <li><a href="contact.html">Contact</a></li>
-         </ul>
-       </nav> 
-     </div>
-   </div>
    <div class="templatemo-welcome welcome-slider">
     <div class="container">
       <div class="row">
@@ -64,7 +45,6 @@
       </div>    
     </div>
   </div>
-</section>
 <div class="container margin-bottom-50">
  <div class="row">
   <div class="col-lg-12 tm-overflow-hidden">
