@@ -25,7 +25,25 @@
 @endsection
 
 @section('content')
-<div class="tm-overflow-hidden row">
+<h2>Category of Motor</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Name </th>
+          <th>Category </th>
+      </tr>
+  </thead>
+  <tbody>
+      @foreach ($product as $p)
+          <tr>
+              <td>{{ $p->name }}</td>
+              <td>{{ $p->category }}</td>
+          </tr>
+      @endforeach
+  </tbody>
+</table>
+
+{{-- <div class="tm-overflow-hidden row">
     <div class="tm-gallery col-lg-9 col-md-9 col-sm-8 col-xs-12">
       <h3 class="tm-gallery-title">Toyota (53)</h3>          
       <div class="tm-item-container">
@@ -133,79 +151,79 @@
         <h2 class="tm-gallery-nav-title">Category <i class="fa fa-caret-up"></i></h2>
         <ul>
           <li class="active">
-            <a href="#">
+            <a href="#Toyota">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Toyota
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Honda">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Honda
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Nissan">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Nissan
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#BMW">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">BMW
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Audi">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Audi
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Mercedes">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Mercedes
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Lexus">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Lexus
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Ford">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Ford
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Ferrari">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Ferrari
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Lamborghini">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Lamborghini
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Porsche">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Porsche
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#LandRover">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Land Rover
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Chevrolet">
               <img src="{{asset('assets/img/gallery-list-icon.png')}}" class="tm-gallery-list-img" alt="Image">Chevrolet
               <i class="fa fa-caret-right tm-gallery-list-fa"></i>
             </a>
@@ -223,5 +241,5 @@
         <a href="tel:" class="tm-call-us-link">+11 565 789 57</a>
       </div>    
     </aside>
-  </div>
+  </div> --}}
 @endsection

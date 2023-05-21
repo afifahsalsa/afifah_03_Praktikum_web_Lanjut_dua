@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\productController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,21 +25,9 @@ Route::get('/child', function(){
     return view('child');
 });
 //praktikum 1
-Route::get('/home', function(){
-    return view('home');
-})-> name('home');
-Route::get('/products', function(){
-    return view('products');
-})-> name('products');
-Route::get('/gallery', function(){
-    return view('gallery');
-})-> name('gallery');
-Route::get('/services', function(){
-    return view('services');
-})-> name('services');
-Route::get('/about', function(){
-    return view('about');
-})-> name('about');
-Route::get('/contact', function(){
-    return view('contact');
-})-> name('contact');
+Route::get('/home', function(){ return view('home'); })-> name('home');
+Route::get('/products',[productController::class, 'index']) -> name('products');
+Route::get('/gallery', function(){ return view('gallery'); })-> name('gallery');
+Route::get('/services', function(){ return view('services'); })-> name('services');
+Route::get('/about', function(){ return view('about'); })-> name('about');
+Route::get('/contact', function(){ return view('contact'); })-> name('contact');
